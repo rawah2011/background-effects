@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>CSS Background</title>
+
+<style>
+
+body {
+
+background-image: url('https://www.womplestudios.com/cdn/shop/articles/hero_image_47a26068-03d4-4efe-9fcd-d65f97698b88.jpg?v=1688008690');
+
+background-size: 500px 300px;
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+background-position: right top;
+
+}
+
+#demo1 {
+
+height: 200px;
+
+background: linear-gradient(#c21d03, #0D6E6E, #de283b);
+
+}
+
+#demo2 {
+
+height: 200px;
+
+background: linear-gradient(to bottom right, #c21d03, #2E8B57, #de283b);
+
+}
+#demo3 { 
+    margin-top: 20px;
+    height: 200px;
+    background: radial-gradient(red,pink);
+}
+#demo4 { 
+    margin-top: 20px;
+    height: 200px;
+    background: radial-gradient(rgb(206, 164, 164),rgb(126, 29, 120));
+}
+#demo5 { 
+    margin-top: 20px;
+    height: 500px;
+    background: radial-gradient(circle, rgb(255, 0, 0) 20%,rgb(255, 255, 255) 80%)
+}
+#rawah { 
+    width: 500px;
+    height: 300px;
+background-color: #c21d03;
+    animation-name: example;
+    animation-duration: 5s;
+    animation : example 4s infinite;
+}
+@keyframes example { 
+    from{left : 0px;}
+    to{left : 400px;}
+    0% {background-color: blueviolet;}
+    20% {background-color: rgb(178, 183, 131);}
+    60% {background-color: rgb(43, 128, 226);}
+    20% {background-color: rgb(226, 43, 214);}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1> Background effect</h1>
+
+<div id="demo1">
+
+</div>
+
+<div id="demo2">
+
+</div>
+</div>
+
+<div id="demo3">
+
+</div>
+<div id="demo4"></div>
+
+<div id="demo5"> 
+
+</div>
+<div id="rawah"> hi </div>
+</body>
+
+</html>
